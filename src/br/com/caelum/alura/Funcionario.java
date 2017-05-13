@@ -1,6 +1,7 @@
 package br.com.caelum.alura;
 
 import java.util.Calendar;
+import br.com.caelum.alura.cargosBonicacoes.calculo.Cargo;
 
 public class Funcionario {
 	
@@ -38,6 +39,10 @@ public class Funcionario {
 	    }
 	    public void setSalarioBase(double salarioBase) {
 	        this.salarioBase = salarioBase;
+	   }
+	  
+	    public double calculaSalario(){
+	    	return cargo.getRegra().calcula(this);
 	    }
 
 }
