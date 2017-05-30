@@ -7,7 +7,7 @@ import br.com.caelum.alura.Funcionario;
 public class CalculadoraSalario {
 	
 	public double calcula(Funcionario funcionario){
-		return funcionario.calculaSalario();
+		return funcionario.calculaSalario();		
 	}
 		
 		

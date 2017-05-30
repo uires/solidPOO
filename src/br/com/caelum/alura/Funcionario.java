@@ -23,8 +23,8 @@ public class Funcionario {
 	        return dataDeAdmissao;
 	    }
 	    public double getSalarioBase() {
-	        return salarioBase;
-	    }
+		        return salarioBase;
+		    }
 	    public void setId(int id) {
 	        this.id = id;
 	    }
@@ -44,6 +44,6 @@ public class Funcionario {
 	    public double calculaSalario(){
 	    	return cargo.getRegra().calcula(this);
 	    }
-
+	    
 }
 
